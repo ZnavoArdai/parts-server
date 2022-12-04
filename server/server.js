@@ -31,5 +31,4 @@ app.get("/", (req, res) => {
   res.send({ message: "server online" });
 });
 app.listen(port, () => {});
-console.log(`listening to port ${port}`);
-
+console.log(`listening to port ${port}`)
